@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    font-family: roboto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    margin: 15px;
+    padding-top: 5px;
+}
+
+.header {
+display: flex;
+background-color: rgb(0, 123, 255);
+height: 70px;
+width: 100%;
+box-shadow: 0 0 5px;
+}
+
+.navbar{
+    background-color: rgb(0, 123, 255);
+    
+}
+.navbar > ul {  
+    display: flex;
+}
+
+.navbar > ul > li {
+    margin: -10px;
+    padding-left: 50px;
+
+    
+}
+.navbar > ul > li > a{
+    color: white;
+  
+}
+.navbar > ul > li > a:hover {
+    color: black;
+    transition: 0.5s;
+    text-shadow: 0 0 5px;  
+   
+}
+
+.logo > img {
+    width: 170px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.main{
+    display: flex;
+    background-color: rgb(202, 240, 248,0.6)
+}
+
+.section1{
+    display: flex;
+    background-color: rgb(173, 232, 244);
+    margin: 0;
+    padding: 10px;
+    width: 27%;
+    
+   
+}
+.section2{
+    display: flex;
+    background-color: rgb(173, 232, 244);
+    margin: 0;
+    padding: 10px;
+    width: 35%;
+    
+}
+section {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.section > div > ul {
+    display: flex;  
+    width: 100%;
+    margin-left:100px;
+    margin-bottom: 0px;
+    padding: 0;
+  
+}
+.section > div > img {
+    padding-left: 50px;
+    margin-bottom: 0;
+   
+}
+
+.section > ul > li > a:hover {
+    color: black;
+    transition: 0.5s;
+    text-shadow: 0 0 5px;  
+}
+.center {
+    width: 100%; 
+}
+.contato{
+    display: flex;  
+    width: 100%;
+}
+.contato > div > img {
+    padding-left: 100px;
+  
+}
+.cat{
+    width: 50px;
+     height:50px
+}
+.termos{
+    display: flex;
+    background-color: rgb(173, 232, 244);
+    margin: 0;
+    width: 57%;
+
+}
+.termos > div > ul {
+    width: 100%;
+    padding-left: 10px;
+}
+.aside{
+    
+    width: 100%;
+}
+.aside1{
+    width: 57%;
+  
+}
+.aside2{
+   margin-left: 100px; 
+  
+}
+.aside > div > ul {
+    display: flex;  
+    width: 100%;
+    margin-left:100px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.form {
+   
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+   
+    
+  }
+  textarea , input{
+    width:300px;
+    box-sizing: border-box  
+  }
